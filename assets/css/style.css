@@ -1,0 +1,83 @@
+/*Encabezado*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap');
+
+div p {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    margin: 0px;
+    padding-bottom: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+div h1 {
+    margin-bottom: 0px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header {
+    background-image: url("../imgs/img\ 4.jpg");
+    border-style: solid;
+    border-color: 2px black inset;
+    border-radius: 15px;
+}
+
+/*Cuerpo*/
+body {
+    color: black;
+    background-color: rgba(204, 199, 199, 0.933);
+}
+
+section {
+    padding: 30px 0px 30px 0px;
+    height: 100%;
+}
+
+table {
+    margin: 0px auto;
+    width: 80%;
+}
+
+img {
+    margin: 5px 15px 5px 2px;
+    cursor: pointer;
+}
+
+td {
+    text-align: justify;
+    margin: 5px 15px 5px 2px;
+    font-family: 'Roboto Slab', serif;
+    padding: 30px 10px 30px 0px;
+    font-weight: bold;
+    padding-left: 25px;
+    background-color: white;
+    font-size: 18px;
+}
+
+td,
+th {
+    border: solid 4px #eeee;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    size: 24px;
+    background-color: rgb(255, 255, 255);
+}
+
+.tamano {
+    height: 30px;
+}
+
+.marca {
+    font-size: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
